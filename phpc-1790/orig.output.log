@@ -1,0 +1,99 @@
+Got MongoDB\Driver\Exception\BulkWriteException: Modifiers operate on fields but we found type array instead. For example: {$mod: {<field>: ...}} not {$unset: []}
+object(MongoDB\Driver\WriteResult)#16 (9) {
+  ["nInserted"]=>
+  int(0)
+  ["nMatched"]=>
+  int(0)
+  ["nModified"]=>
+  int(0)
+  ["nRemoved"]=>
+  int(0)
+  ["nUpserted"]=>
+  int(0)
+  ["upsertedIds"]=>
+  array(0) {
+  }
+  ["writeErrors"]=>
+  array(1) {
+    [0]=>
+    object(MongoDB\Driver\WriteError)#15 (4) {
+      ["message"]=>
+      string(113) "Modifiers operate on fields but we found type array instead. For example: {$mod: {<field>: ...}} not {$unset: []}"
+      ["code"]=>
+      int(9)
+      ["index"]=>
+      int(0)
+      ["info"]=>
+      NULL
+    }
+  }
+  ["writeConcernError"]=>
+  NULL
+  ["writeConcern"]=>
+  object(MongoDB\Driver\WriteConcern)#12 (0) {
+  }
+}
+Got MongoDB\Driver\Exception\BulkWriteException: '$unset' is empty. You must specify a field like so: {$unset: {<field>: ...}}
+object(MongoDB\Driver\WriteResult)#21 (9) {
+  ["nInserted"]=>
+  int(0)
+  ["nMatched"]=>
+  int(0)
+  ["nModified"]=>
+  int(0)
+  ["nRemoved"]=>
+  int(0)
+  ["nUpserted"]=>
+  int(0)
+  ["upsertedIds"]=>
+  array(0) {
+  }
+  ["writeErrors"]=>
+  array(1) {
+    [0]=>
+    object(MongoDB\Driver\WriteError)#14 (4) {
+      ["message"]=>
+      string(77) "'$unset' is empty. You must specify a field like so: {$unset: {<field>: ...}}"
+      ["code"]=>
+      int(9)
+      ["index"]=>
+      int(0)
+      ["info"]=>
+      NULL
+    }
+  }
+  ["writeConcernError"]=>
+  NULL
+  ["writeConcern"]=>
+  object(MongoDB\Driver\WriteConcern)#16 (0) {
+  }
+}
+object(MongoDB\UpdateResult)#18 (2) {
+  ["writeResult":"MongoDB\UpdateResult":private]=>
+  object(MongoDB\Driver\WriteResult)#15 (9) {
+    ["nInserted"]=>
+    int(0)
+    ["nMatched"]=>
+    int(0)
+    ["nModified"]=>
+    int(0)
+    ["nRemoved"]=>
+    int(0)
+    ["nUpserted"]=>
+    int(0)
+    ["upsertedIds"]=>
+    array(0) {
+    }
+    ["writeErrors"]=>
+    array(0) {
+    }
+    ["writeConcernError"]=>
+    NULL
+    ["writeConcern"]=>
+    object(MongoDB\Driver\WriteConcern)#13 (0) {
+    }
+  }
+  ["isAcknowledged":"MongoDB\UpdateResult":private]=>
+  bool(true)
+}
+NULL
